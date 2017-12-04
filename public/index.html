@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>No Compression vs gzip vs Brotli</title>
+
+    <!-- Bootstrap -->
+    <link href="/styles/bootstrap.css" rel="stylesheet">
+    <link href="/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="/styles/custom.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h2>No compression vs gzip vs Brotli</h2>
+        <p class="lead">This is sample HTML page with some CSS, images and JavaScript.</p>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>No Compression</h2>
+            <p>Standard, out-of-the box bahaviour of a server. You've decided to set-up a server (Express in my case), with absolute minimum configuration - this is what you will get</p>
+            <p>Refer to link below if you want to read more about HTTP compression</p>
+            <p><a class="btn btn-primary" target="_blank" href="https://en.wikipedia.org/wiki/HTTP_compression" role="button">HTTP Compression <span class="glyphicon glyphicon-link"></a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>gzip</h2>
+            <p>You have decided to improve compression of assests server via your server by adding gzip</p>
+            <p>Refer to link below if you want to read more about gzip compression</p>
+            <p><a class="btn btn-primary" target="_blank" href="https://en.wikipedia.org/wiki/Gzip" role="button" >gzip <span class="glyphicon glyphicon-link"></span></a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>Brotli</h2>
+            <p>You are pretty happy with compression results but... You decided to research what 'big boys' like Google are doing. That's how you came across Brotli.</p>
+            <p>Refer to link below if you want to read more about gzip compression</p>
+            <p><a class="btn btn-primary" target="_blank" href="https://en.wikipedia.org/wiki/Brotli" role="button">Brotli <span class="glyphicon glyphicon-link"></a></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="/images/nodejs_logo.png" class="img-responsive" />
+        </div>
+        <div class="col-lg-4">
+            <img src="/images/gzip_logo.png" class="img-responsive" />
+        </div>
+        <div class="col-lg-4">
+            <img src="/images/Brotli_logo.jpeg" class="img-responsive" />
+        </div>
+    </div>
+</div>
+<script src="/javascript/jquery-3.2.0.min.js"></script>
+<script src="/javascript/jquery-3.2.0.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/javascript/bootstrap.min.js"></script>
+<script src="/javascript/bootstrap.js"></script>
+</body>
+</html>

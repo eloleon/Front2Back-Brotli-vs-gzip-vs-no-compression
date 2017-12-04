@@ -1,0 +1,25 @@
+{
+  "name": "compressionTest",
+  "version": "1.0.0",
+  "description": "A quick comparision of Brotli, Gzip and no compression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Brotli",
+    "GZip",
+    "No",
+    "Compression",
+    "in",
+    "ExpressJS"
+  ],
+  "author": "front2back",
+  "license": "ISC",
+  "dependencies": {
+    "brotli": "^1.3.1",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "shrink-ray": "^0.1.3"
+  }
+}
